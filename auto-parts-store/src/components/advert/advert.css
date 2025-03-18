@@ -1,0 +1,38 @@
+.advert {
+    /* height: 110vh; */
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.advert__img {
+    width: 100%;
+    height: 100%;
+}
+.advert__content {
+    position: absolute;
+    left: 15%;
+    top: 70%;
+    color: white;
+    /* text-decoration: underline; */
+    font-weight: bolder;
+    font-size: 3rem;
+    /* top: 70%;
+    left: -30%;
+    transition: left 0.7s;
+    transform: translate(-50%, -50%); */
+}
+/* 
+.advert:hover .advert__content {
+    left: 30%;
+} */
+
+
+.advert__img img {
+    width: 100%;
+    height: 100%;
+    /* display: block; */
+}

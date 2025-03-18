@@ -1,0 +1,22 @@
+.header {
+    width: 100%;
+    min-height: 40rem;
+    background-image: url(../../assets/1154257.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header__text {
+    margin-bottom: 15rem;
+    text-align: center;
+}
+
+.header__text h2{
+    font-size: 2rem;
+}

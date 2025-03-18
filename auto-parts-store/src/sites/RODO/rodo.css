@@ -1,0 +1,45 @@
+  
+  .rodo {
+    max-width: 800px;
+    margin: 8rem auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .rodo h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .rodo h2 {
+    color: #555;
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+  
+  .rodo p {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .rodo ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .rodo ul li {
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .rodo a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .rodo a:hover {
+    text-decoration: underline;
+  }

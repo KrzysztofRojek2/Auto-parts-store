@@ -1,0 +1,124 @@
+.cart {
+    display: flex;
+    flex-direction: row;
+    padding: 10rem 5rem;
+    gap: 2rem;
+    background-color: rgb(246, 246, 246);
+}
+
+.cart__items {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart__header {
+    margin-bottom: 2rem;
+}
+
+/* .cart-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-top: 1px solid var(--dark-gray);
+}
+
+.cart-item__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cart-item__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1rem;
+    gap: 1rem;
+}
+
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+} */
+
+/* .cart__quantity-box {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--dark-gray);
+    border-radius: 0.5rem;
+    width: 120px;
+    height: 40px;
+}
+
+.cart__quantity-box > * {
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cart__quantit-num {
+    border-left:1px solid var(--dark-gray);
+}
+
+.cart__quantit-plus {
+    border-left:1px solid var(--dark-gray);
+}
+
+.cart__quantit-plus,.cart__quantit-minus {
+    font-size: 1.25rem;
+} */
+
+/* .cart-item__price {
+    font-size: 1.25rem;
+} */
+
+.cart__transaction {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cart__transaction  div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cart__price-sum {
+    border-top: 2px solid var(--dark-gray);
+    padding-top: 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.cart__transaction__header {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--dark-gray);
+}
+/* .cart__transaction button {
+    border-radius: 0.5rem;
+} */
+
+.cart__transaction button {
+    width: 100%;
+}
+.is-empty {
+    padding-bottom: 15rem !important;
+}
+
+.empty-cart-message {
+    align-self: center;
+    margin-top: 5rem;
+}
+
+.link-disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+  

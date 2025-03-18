@@ -1,0 +1,12 @@
+.blogs-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+@media (max-width: 1000px) {
+    .blogs-wrapper {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,28 @@
+.quantity-box {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--dark-gray);
+    border-radius: 0.5rem;
+    width: 120px;
+    height: 40px;
+}
+
+.quantity-box > * {
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.quantity-num {
+    border-left:1px solid var(--dark-gray);
+}
+
+.quantity-plus {
+    border-left:1px solid var(--dark-gray);
+}
+
+.quantity-plus, .quantity-minus {
+    font-size: 1.25rem;
+}

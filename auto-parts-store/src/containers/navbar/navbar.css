@@ -1,0 +1,71 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: fixed;
+    top:  0;
+    left:  0;
+    z-index:  1000;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: black;
+    align-items: center;
+}
+
+.website-logo {
+    max-width: 100px;
+    cursor: pointer;
+}
+
+.navbar__options {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar__text {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+.navbar__text a {
+    cursor: pointer;
+    position: relative;
+}
+
+.navbar__text  a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px; 
+    background-color: red; 
+    transition: width 0.3s ease-in-out; 
+}
+
+.navbar__buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.navbar__text a:hover::after {
+    width: 100%;
+}
+
+
+.navbar .button {
+    box-shadow: 0 0 2.5px 2.5px rgba(255, 0, 0, 0.5),
+                 0 0 5px 5px rgba(255, 0, 0, 0.4),
+                 0 0 7.5px 7.5px rgba(255, 0, 0, 0.3),
+                 0 0 10px 10px rgba(255, 0, 0, 0.2),
+                 0 0 12.5px 12.5px rgba(255, 0, 0, 0.1);
+   }

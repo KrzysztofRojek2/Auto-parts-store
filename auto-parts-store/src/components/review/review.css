@@ -1,0 +1,29 @@
+.review {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* justify-content: space-between;
+    align-items: center; */
+    padding: 2rem;
+    /* border-radius: 0.5rem; */
+    gap: 1rem;
+    height: fit-content;
+    transition: all 0.3s;
+    border-radius: 2rem;
+    box-shadow: rgba(214, 214, 214, 0.4) 0px 0px 8px 8px;
+}
+
+.review__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review:hover {
+    transform: scale(1.03);
+}
+
+.review__title {
+    font-size: 1.1rem;
+    font-weight: bolder;
+}

@@ -1,0 +1,46 @@
+.cookies-popup {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 250px;
+    justify-content: space-between;
+    /* height: fit-content; */
+    z-index: 1000;
+    color: white;
+    background-color: #252525;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    /* background-color: black; */
+}
+
+.cookies-popup__header {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.cookies-popup__header img {
+    height: 32px;
+    width: 32px;
+}
+
+.cookies-popup_buttons {
+    display: flex;
+    gap: 1rem;
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+}
+
+.cookies-popup_buttons .button {
+    border-radius: 0.3rem;
+    background-color: burlywood;
+    color: black;
+    padding: 0.8rem 2rem;
+}
+
+.cookies-popup p {
+    color: lightgray;
+}
